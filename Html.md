@@ -1,3 +1,11 @@
+## 🗒️ Speaker Notes
+
+- **HTML** = *HyperText Markup Language* → the **skeleton** of every web page.
+- **Tags** are the **building blocks** of HTML. They usually come in **pairs**:  
+  `<tag>content</tag>`
+- The **browser** reads these tags and displays the content **accordingly**.
+
+
 # ✅ Module 1: Basic HTML Structure
 
 Every HTML page starts with a basic structure:
@@ -89,9 +97,17 @@ Every HTML page starts with a basic structure:
 <img src="https://via.placeholder.com/150" alt="Sample Image" />
 ```
 
+## 🔗 Link Target Attribute Values
+
+| Value     | Description                                                                 |
+| --------- | --------------------------------------------------------------------------- |
+| `_blank`  | Opens the linked document in a **new window or tab**                        |
+| `_self`   | Opens the linked document in the **same frame** as it was clicked (default) |
+| `_parent` | Opens the linked document in the **parent frame**                           |
+| `_top`    | Opens the linked document in the **full body** of the window                |
+
 ### 💡 Comments:
 
-- `target="_blank"` → Opens the link in a **new tab**.
 - `alt` → Provides **alternative text** if the image can’t load; also helps **screen readers**.
 
 ---
